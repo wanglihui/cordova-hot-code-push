@@ -126,7 +126,7 @@
     <!-- Gradle config -->
     <framework custom="true" src="src/android/chcp.gradle" type="gradleReference"/>
     <!-- Manifest changes -->
-    <config-file parent="/manifest" target="AndroidManifest.xml">
+    <config-file parent="/manifest" target="app/src/main/AndroidManifest.xml">
       <uses-permission android:name="android.permission.INTERNET"/>
       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
       <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
